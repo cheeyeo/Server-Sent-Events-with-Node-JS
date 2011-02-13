@@ -1,0 +1,25 @@
+Server Sent Events
+=============================
+
+Introduction
+---------------
+
+Server Sent Events (SSEs) is a form of uni directional communication mechanism where servers
+can send data to clients using ordinary HTTP protocols unlike Websockets which are bi-directional and requires specific servers to run.
+
+The examples provided here are implemented using Node JS for the server and plain JS for the HTML file.
+
+The example only works in Chrome and Safari.
+
+More information about SSEs can be found at http://www.html5rocks.com/tutorials/eventsource/basics/
+
+The code in this tutorial are extracted from the demo links at the bottom of the page.
+
+Running the examples
+---------------------
+
+Assuming you have node installed:
+
+node server.js
+
+inside browser: localhost:8000/sse-node.html
